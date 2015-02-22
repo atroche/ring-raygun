@@ -6,7 +6,9 @@ Clojure Ring middleware to send uncaught exceptions to the [Raygun](http://raygu
 
 Add the dependency to your project.clj:
 
+```
 [thegreatape/ring-raygun "0.1.0"]
+```
 
 ## Usage
 
