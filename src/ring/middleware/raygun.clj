@@ -20,7 +20,7 @@
     (if api-key
       (try
         (handler request)
-        (catch Exception e
+        (catch Throwable e
           (do
             (.Send (RaygunClient. api-key) e [] (raygun-params request) )
             (throw e))))
